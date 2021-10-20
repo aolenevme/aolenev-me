@@ -1,10 +1,16 @@
-.letters {
-	margin-bottom: 5rem; 
+.content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+	margin: auto;
+  width: 190px;
+	height: fit-content;
 }
 
 .letter {
-	width: 19.56%;
-	height: 45.15%;
+	width: 60px;
 	stroke: #f5f5f7;
 	stroke-width: 4;
 	stroke-dasharray: 1000;
@@ -15,78 +21,7 @@
 	animation-direction: normal;
 	animation-fill-mode: forwards;
 	animation-play-state: running;
-	animation-delay: 1s;
 	animation-name: letter;
-}
-
-.letter--position-top {
-	position: absolute;
-	top: -5.2%;
-}
-
-.letter--position-bottom {
-	position: absolute;
-	top: 20.95%;
-}
-
-.letter-a--top {
-	left: -3.26%;
-}
-
-.letter-l--top {
-	left: 7.61%;
-}
-
-.letter-e--top {
-	left: 18.48%;
-}
-
-.letter-x--top {
-	left: 29.35%;
-}
-
-.letter-a--top-second {
-	left: 40.22%;
-}
-
-.letter-n--top {
-	left: 51.09%;
-}
-
-.letter-d--top {
-	left: 61.96%;
-}
-
-.letter-e--top-second {
-	left: 72.83%;
-}
-
-.letter-r--top {
-	left: 83.7%;
-}
-
-.letter-o--bottom {
-	left: 13.04%;
-}
-
-.letter-l--bottom {
-	left: 23.91%;
-}
-
-.letter-e--bottom {
-	left: 34.78%;
-}
-
-.letter-n--bottom {
-	left: 45.65%;
-}
-
-.letter-e--bottom-second {
-	left: 56.52%;
-}
-
-.letter-v--bottom {
-	left: 67.39%;
 }
 
 @keyframes letter {
