@@ -1,17 +1,5 @@
-.grid {
-	width: 300px;
-	height: 71.73px;
-	stroke: #424245;
-	stroke-width: 1;
-	stroke-dasharray: 1000;
-	stroke-dashoffset: 1000;
-	animation-duration: 5s;
-	animation-timing-function: ease;
-	animation-iteration-count: 1;
-	animation-direction: normal;
-	animation-fill-mode: forwards;
-	animation-play-state: running;
-	animation-name: letter
+.letters {
+	margin-bottom: 5rem; 
 }
 
 .letter {
@@ -28,82 +16,82 @@
 	animation-fill-mode: forwards;
 	animation-play-state: running;
 	animation-delay: 1s;
-	animation-name: letter
+	animation-name: letter;
 }
 
 .letter--position-top {
 	position: absolute;
-	top: -5.2%
+	top: -5.2%;
 }
 
 .letter--position-bottom {
 	position: absolute;
-	top: 20.95%
+	top: 20.95%;
 }
 
 .letter-a--top {
-	left: -3.26%
+	left: -3.26%;
 }
 
 .letter-l--top {
-	left: 7.61%
+	left: 7.61%;
 }
 
 .letter-e--top {
-	left: 18.48%
+	left: 18.48%;
 }
 
 .letter-x--top {
-	left: 29.35%
+	left: 29.35%;
 }
 
 .letter-a--top-second {
-	left: 40.22%
+	left: 40.22%;
 }
 
 .letter-n--top {
-	left: 51.09%
+	left: 51.09%;
 }
 
 .letter-d--top {
-	left: 61.96%
+	left: 61.96%;
 }
 
 .letter-e--top-second {
-	left: 72.83%
+	left: 72.83%;
 }
 
 .letter-r--top {
-	left: 83.7%
+	left: 83.7%;
 }
 
 .letter-o--bottom {
-	left: 13.04%
+	left: 13.04%;
 }
 
 .letter-l--bottom {
-	left: 23.91%
+	left: 23.91%;
 }
 
 .letter-e--bottom {
-	left: 34.78%
+	left: 34.78%;
 }
 
 .letter-n--bottom {
-	left: 45.65%
+	left: 45.65%;
 }
 
 .letter-e--bottom-second {
-	left: 56.52%
+	left: 56.52%;
 }
 
 .letter-v--bottom {
-	left: 67.39%
+	left: 67.39%;
 }
 
 @keyframes letter {
 	100% {
-		stroke-dashoffset: 0
+		stroke-dashoffset: 0;
 	}
 }
 
@@ -111,7 +99,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	width: 100%
+	margin-bottom: 2rem;
+	width: 100%;
 }
 
 .icon {
@@ -125,14 +114,14 @@
 	animation-direction: normal;
 	animation-fill-mode: forwards;
 	animation-play-state: running;
-	animation-name: icon
+	animation-name: icon;
 }
 
 @keyframes icon {
 	0% {
-		opacity: 0
+		opacity: 0;
 	}
 	100% {
-		opacity: 1
+		opacity: 1;
 	}
 }
