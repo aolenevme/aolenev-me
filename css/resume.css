@@ -1,0 +1,10 @@
+.resume--content {
+  margin: auto;
+  width: 300px;
+  height: fit-content;
+}
+
+.resume--link {
+  color: white;
+  text-decoration: underline;
+}
