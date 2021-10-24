@@ -1,7 +1,7 @@
 .blog--content {
     margin: auto;
     width: 300px;
-    height: fit-content;
+    height: min-content;
 }
 
 .blog--link {
