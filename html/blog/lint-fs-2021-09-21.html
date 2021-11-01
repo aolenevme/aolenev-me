@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+      <title>Alexander Olenev. Blog.</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta name="description" content="Alexander Olenev. The quality wall.">
+      <link rel="prerender" href="../index.html">
+      <link rel="prerender" href="../resume.html">
+      <link href="../../images/favicon.png" type="image/png" rel="icon">
+      <link href="../../css/common.css" rel="stylesheet">
+      <link href="../../css/navigation.css" rel="stylesheet">
+      <link href="../../css/blog.css" rel="stylesheet">
+   </head>
+   <body>
+      <main class="blog--content">
+         <section>
+            <h1>Lint-fs 😋</h1>
+            <p>Lint your filesystem with regular expressions!</p>
+            <h2>Why?</h2>
+            <p>We have got linters and static analyzers. But stated structure of your project plays equally important role in keeping your code clean. <strong>So welcome the automated tool for linting filesystem of your projects!</strong> ✌️
+            </p>
+            <h2 id="installation">Installation</h2>
+            <h3 id="npm">NPM</h3>
+            <pre><code>npm install --<span class="hljs-built_in">save</span>-<span class="hljs-built_in">dev</span> lint-fs
+</code></pre>
+            <h3 id="raw-binary">Raw binary</h3>
+            <p>You can download binary specifically for your platform (Debian, Ubuntu or Windows) on the <a href="https://github.com/eshekak/lint-fs/releases">Releases page</a>.</p>
+            <h2 id="how-">How?</h2>
+            <ol>
+               <li>Create the <a href="lint-fs.yaml.example"><code>lint-fs.yaml</code></a> file in the root of your project and specify the structure of your project using the power of Regular Expressions!</li>
+               <li>You should use <a href="https://regex101.com/">ECMAScript Regular Expressions</a> for rules</li>
+               <li>
+                  Then just:
+                  <ul>
+                     <li>run <code>node node_modules/lint-fs/npm/run</code> for NPM;</li>
+                     <li>or execute downloaded file from the root of your project.</li>
+                  </ul>
+               </li>
+            </ol>
+            <h2 id="feedback">Feedback</h2>
+            <p>To share your feedback, please, create an <a href="https://github.com/eshekak/lint-fs/issues">issue</a>.</p>
+         </section>
+         <nav class="navigation">
+            <a class="navigation--link" href="../index.html" rel="noopener noreferrer nofollow">Home</a>
+            <a class="navigation--link" href="../resume.html" rel="noopener noreferrer nofollow">Résumé</a>
+            <a class="navigation--link" href="./index.html" rel="noopener noreferrer nofollow">Blog</a>
+         </nav>
+      </main>
+   </body>
+</html>
