@@ -1,0 +1,10 @@
+.blog--content {
+    margin: auto;
+    width: 300px;
+    height: min-content;
+}
+
+.blog--link {
+    color: white;
+    text-decoration: underline;
+}
