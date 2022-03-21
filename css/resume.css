@@ -4,6 +4,13 @@
   height: min-content;
 }
 
+.resume--links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+}
+
 .resume--link {
   color: white;
   text-decoration: underline;
