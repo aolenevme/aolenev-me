@@ -31,6 +31,4 @@ FileEtag MTime
 
 RewriteEngine On 
 RewriteCond %{HTTPS}  !=on 
-RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L] 
-
-ErrorDocument 404 https://${SERVER_NAME}/
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
