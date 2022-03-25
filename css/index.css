@@ -7,6 +7,7 @@
 	margin: auto;
   width: 190px;
 	height: min-content;
+	user-select: none;
 }
 
 .content--letter {
