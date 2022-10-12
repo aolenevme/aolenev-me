@@ -1,18 +1,14 @@
 .index--content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-	margin: auto;
-  width: 190px;
-	height: min-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 16px;
+	margin-bottom: 8px;
 	user-select: none;
 }
 
 .content--letter {
-	width: 60px;
-	stroke: #f5f5f7;
+	stroke: #ffffff;
 	stroke-width: 4;
 	stroke-dasharray: 1000;
 	stroke-dashoffset: 1000;
