@@ -1,13 +1,41 @@
-.index--content {
+html {
+	background-color: #0a0a0a;
+	color: #f5f5f7;
+	font-style: normal;
+	font-variant-ligatures: normal;
+	font-variant-caps: normal;
+	font-variant-numeric: normal;
+	font-variant-east-asian: normal;
+	font-weight: normal;
+	font-stretch: normal;
+	font-size: 14px;
+	line-height: 1.5rem;
+	font-family: body, sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+main {
+	margin: auto;
+	width: 300px;
+}
+
+.link {
+	color: white;
+	text-decoration: underline;
+}
+
+.letters {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-top: 16px;
-	margin-bottom: 8px;
 	user-select: none;
 }
 
-.content--letter {
+.letter {
 	stroke: #ffffff;
 	stroke-width: 4;
 	stroke-dasharray: 1000;
