@@ -22,6 +22,14 @@ main {
 	width: 300px;
 }
 
+.links {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	font-family: monospace;
+}
+
 .link {
 	color: white;
 	text-decoration: underline;
