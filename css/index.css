@@ -36,7 +36,7 @@ main {
   text-decoration: underline;
 }
 
-.letters {
+.logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,23 +45,7 @@ main {
   user-select: none;
 }
 
-.letter {
+.logo__content {
   width: 40px;
-  stroke: #ffffff;
-  stroke-width: 4;
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation-duration: 3s;
-  animation-timing-function: ease;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: forwards;
-  animation-play-state: running;
-  animation-name: letter;
-}
-
-@keyframes letter {
-  100% {
-    stroke-dashoffset: 0;
-  }
+  fill: #ffffff;
 }
