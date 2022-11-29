@@ -46,6 +46,29 @@ main {
 }
 
 .logo__content {
+  animation: draw 2s ease-in-out forwards;
+  stroke: #ffffff;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  stroke-width: 0;
   width: 40px;
-  fill: #ffffff;
+}
+
+@keyframes draw {
+  0% {
+    stroke-width: 4;
+  }
+
+  75% {
+    fill: transparent;
+  }
+
+  85% {
+    stroke-width: 3;
+  }
+
+  100% {
+    fill: #ffffff;
+    stroke-dashoffset: 0;
+  }
 }
