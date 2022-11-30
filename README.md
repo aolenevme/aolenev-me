@@ -1,7 +1,5 @@
 <div align="center">
 
-# [aolenev.me](https://aolenev.me/)
-
-![Alexander Olenev Logo](https://www.aolenev.me/images/og-image.png)
+<img alt="Alexander Olenev Logo" height="160" src="https://www.aolenev.me/images/og-image.png" width="160" />
 
 </div>
