@@ -68,7 +68,7 @@ main {
   animation: draw 2s ease-in-out forwards;
   fill: var(--text-primary);
   height: 40px;
-  stroke: var(--text-primary);
+  stroke: var(--text-secondary);
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   stroke-width: 0;
