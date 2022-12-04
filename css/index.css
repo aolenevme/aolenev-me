@@ -52,10 +52,6 @@ main {
   text-decoration: none;
 }
 
-.link_emphasized {
-  color: var(--text-secondary);
-}
-
 .link:hover {
   color: var(--text-secondary);
 }
