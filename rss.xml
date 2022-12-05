@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <link href="https://www.aolenev.me/rss.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://www.aolenev.me/" rel="alternate" type="text/html"/>
+  <link href="https://www.aolenev.me/rss.xml" rel="self" type="application/atom+xml" />
+  <link href="https://www.aolenev.me/" rel="alternate" type="text/html" />
   <updated>2022-12-05T00:00:00+00:00</updated>
   <id>https://www.aolenev.me/rss.xml</id>
   <title type="html">Alexander Olenev</title>
@@ -10,4 +10,30 @@
     <name>Alexander Olenev</name>
     <email>hello@aolenev.me</email>
   </author>
+  <entry>
+    <title type="html">My New Skynet Logo &#x1f98c;</title>
+    <link href="https://www.aolenev.me/blog/my-new-skynet-logo.html" rel="alternate" type="text/html" title="My New Skynet Logo &#x1f98c;" />
+    <published>2022-12-01T00:00:00+00:00</published>
+    <updated>2022-12-01T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/my-new-skynet-logo.html</id>
+    <content type="html" xml:base="https://www.aolenev.me/blog/my-new-skynet-logo.html">
+      <p>The world is rushing forward. Skynet digital designers are literally around the corner.</p>
+      <p>
+        I am happy to announce that I have just become a satisfied client of such AI designer 
+        <a class="link" href="https://ironov.artlebedev.com/en" rel="noopener noreferrer nofollow" target="_blank">Nikolay Ironov</a>
+        , which generated a logo for me!
+      </p>
+      <p>It is impressive how the computer managed to merge my name, surname (Оленев means &#x1f98c; in Russian), and a short description of my skills into one succinct logotype peppered with symbolism. Even the color palette is great!</p>
+      <p>My customer experience is frightening and beneficial at the same time. The future is knocking on the door!</p>
+    </content>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>The world is rushing forward. Skynet digital designers are literally around the corner.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/my-new-skynet-logo.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/og-image.png" />
+  </entry>
 </feed>
