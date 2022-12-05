@@ -11,8 +11,8 @@
     <email>hello@aolenev.me</email>
   </author>
   <entry>
-    <title type="html">My New Skynet Logo &#x1f98c;</title>
-    <link href="https://www.aolenev.me/blog/my-new-skynet-logo.html" rel="alternate" type="text/html" title="My New Skynet Logo &#x1f98c;" />
+    <title type="html">My New Skynet Logo 🦌</title>
+    <link href="https://www.aolenev.me/blog/my-new-skynet-logo.html" rel="alternate" type="text/html" title="My New Skynet Logo 🦌" />
     <published>2022-12-01T00:00:00+00:00</published>
     <updated>2022-12-01T00:00:00+00:00</updated>
     <id>https://www.aolenev.me/blog/my-new-skynet-logo.html</id>
@@ -23,7 +23,7 @@
         <a class="link" href="https://ironov.artlebedev.com/en" rel="noopener noreferrer nofollow" target="_blank">Nikolay Ironov</a>
         , which generated a logo for me!
       </p>
-      <p>It is impressive how the computer managed to merge my name, surname (Оленев means &#x1f98c; in Russian), and a short description of my skills into one succinct logotype peppered with symbolism. Even the color palette is great!</p>
+      <p>It is impressive how the computer managed to merge my name, surname (Оленев means 🦌 in Russian), and a short description of my skills into one succinct logotype peppered with symbolism. Even the color palette is great!</p>
       <p>My customer experience is frightening and beneficial at the same time. The future is knocking on the door!</p>
     </content>
     <author>
@@ -35,5 +35,29 @@
     </summary>
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/my-new-skynet-logo.html" />
     <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/og-image.png" />
+  </entry>
+  <entry>
+    <title type="html">File System Linter v1.1.0 - Excessive Rules 📐</title>
+    <link href="https://www.aolenev.me/blog/file-system-linter-v1.1.0.html" rel="alternate" type="text/html" title="File System Linter v1.1.0 - Excessive Rules 📐" />
+    <published>2022-11-24T00:00:00+00:00</published>
+    <updated>2022-11-24T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/file-system-linter-v1.1.0.html</id>
+    <content type="html" xml:base="https://www.aolenev.me/blog/file-system-linter-v1.1.0.html">
+      <p>One of the <a class="link" href="https://github.com/aolenevme/lint-fs" rel="noopener noreferrer nofollow" target="_blank"><code>lint-fs</code>
+        </a> logic inconsistencies was permission to configure several similar rules.</p>
+      <p>Now it is fixed. Since the <a class="link" href="https://github.com/aolenevme/lint-fs/pull/33" rel="noopener noreferrer nofollow" target="_blank"><code>v1.1.0</code>
+        </a> linter will report an error and print all excessive rules into your console! It will force you to maintain laconic config files.</p>
+      <p>As usual, the code still is of the highest quality. Do not hesitate to use it - and suggest new enhancements!</p>
+    </content>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>One of the <a class="link" href="https://github.com/aolenevme/lint-fs" rel="noopener noreferrer nofollow" target="_blank"><code>lint-fs</code>
+        </a> logic inconsistencies was permission to configure several similar rules.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/file-system-linter-v1.1.0.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/ruler.png" />
   </entry>
 </feed>
