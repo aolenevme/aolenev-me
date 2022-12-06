@@ -107,4 +107,20 @@
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/being-informed.html" />
     <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/thinking-face.png" />
   </entry>
+  <entry>
+    <title type="html">Elegant Objects 🌵</title>
+    <link href="https://www.aolenev.me/blog/elegant-objects.html" rel="alternate" type="text/html" title="Elegant Objects 🌵" />
+    <published>2022-07-27T00:00:00+00:00</published>
+    <updated>2022-07-27T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/elegant-objects.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p><cite>Step one in the transformation of a successful procedural developer into a successful object developer is a lobotomy. — <a class="link" href="http://davewest.us/" rel="noopener noreferrer nofollow" target="_blank">David West</a></cite></p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/elegant-objects.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/cactus.png" />
+  </entry>
 </feed>
