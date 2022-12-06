@@ -139,4 +139,20 @@
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/russia-under-sanctions.html" />
     <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/bear.png" />
   </entry>
+  <entry>
+    <title type="html">One Word 1️</title>
+    <link href="https://www.aolenev.me/blog/one-word.html" rel="alternate" type="text/html" title="One Word 1️" />
+    <published>2022-06-29T00:00:00+00:00</published>
+    <updated>2022-06-29T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/one-word.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>There is a little life hack.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/one-word.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/one.png" />
+  </entry>
 </feed>
