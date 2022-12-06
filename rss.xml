@@ -171,4 +171,21 @@
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/all-inclusive.html" />
     <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/globe.png" />
   </entry>
+  <entry>
+    <title type="html">Mindset Framework 🧠</title>
+    <link href="https://www.aolenev.me/blog/mindset-framework.html" rel="alternate" type="text/html" title="Mindset Framework 🧠" />
+    <published>2022-06-09T00:00:00+00:00</published>
+    <updated>2022-06-09T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/mindset-framework.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>The primary purpose of code quality investments in a growing team is to cultivate a "mindset framework".</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/mindset-framework.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/brain.png" />
+  </entry>
+
 </feed>
