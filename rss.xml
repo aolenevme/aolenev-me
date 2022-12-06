@@ -123,4 +123,20 @@
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/elegant-objects.html" />
     <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/cactus.png" />
   </entry>
+  <entry>
+    <title type="html">Russia Under Sanctions 🐻</title>
+    <link href="https://www.aolenev.me/blog/russia-under-sanctions.html" rel="alternate" type="text/html" title="Russia Under Sanctions 🐻" />
+    <published>2022-07-12T00:00:00+00:00</published>
+    <updated>2022-07-12T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/russia-under-sanctions.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+     <p>Russia is a software leader. It produced many ecosystems in recent years: Sber, Yandex, VK, Ozon, Tinkoff, and Avito. Nobody did it so well, except USA and China.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/russia-under-sanctions.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/bear.png" />
+  </entry>
 </feed>
