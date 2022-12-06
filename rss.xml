@@ -155,4 +155,20 @@
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/one-word.html" />
     <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/one.png" />
   </entry>
+  <entry>
+    <title type="html">All Inclusive 🌏</title>
+    <link href="https://www.aolenev.me/blog/all-inclusive.html" rel="alternate" type="text/html" title="All Inclusive 🌏" />
+    <published>2022-06-14T00:00:00+00:00</published>
+    <updated>2022-06-14T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/all-inclusive.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>Businesses are run to make money.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/all-inclusive.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/globe.png" />
+  </entry>
 </feed>
