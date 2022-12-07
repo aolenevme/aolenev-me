@@ -203,4 +203,20 @@
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/fragmentation.html" />
     <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/watch.png" />
   </entry>
+  <entry>
+    <title type="html">Single Person Responsibility 🙆🏼</title>
+    <link href="https://www.aolenev.me/blog/single-person-responsibility.html" rel="alternate" type="text/html" title="Single Person Responsibility 🙆🏼" />
+    <published>2022-05-29T00:00:00+00:00</published>
+    <updated>2022-05-29T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/single-person-responsibility.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>People have to be responsible for their decisions. It is an axiom.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/single-person-responsibility.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/ok-man.png" />
+  </entry>
 </feed>
