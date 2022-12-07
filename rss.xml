@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="https://www.aolenev.me/rss.xml" rel="self" type="application/atom+xml" />
+  <link href="https://www.aolenev.me/" rel="alternate" type="text/html" />
+  <updated>2022-12-05T00:00:00+00:00</updated>
+  <id>https://www.aolenev.me/rss.xml</id>
+  <title type="html">Alexander Olenev</title>
+  <subtitle>Alexander Olenev</subtitle>
+  <author>
+    <name>Alexander Olenev</name>
+    <email>hello@aolenev.me</email>
+  </author>
+  <entry>
+    <title type="html">My New Skynet Logo 🦌</title>
+    <link href="https://www.aolenev.me/blog/my-new-skynet-logo.html" rel="alternate" type="text/html" title="My New Skynet Logo 🦌" />
+    <published>2022-12-01T00:00:00+00:00</published>
+    <updated>2022-12-01T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/my-new-skynet-logo.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>The world is rushing forward. Skynet digital designers are literally around the corner.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/my-new-skynet-logo.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/og-image.png" />
+  </entry>
+  <entry>
+    <title type="html">File System Linter v1.1.0 - Excessive Rules 📐</title>
+    <link href="https://www.aolenev.me/blog/file-system-linter-v1.1.0.html" rel="alternate" type="text/html" title="File System Linter v1.1.0 - Excessive Rules 📐" />
+    <published>2022-11-24T00:00:00+00:00</published>
+    <updated>2022-11-24T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/file-system-linter-v1.1.0.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>One of the <a class="link" href="https://github.com/aolenevme/lint-fs" rel="noopener noreferrer nofollow" target="_blank"><code>lint-fs</code>
+        </a> logic inconsistencies was permission to configure several similar rules.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/file-system-linter-v1.1.0.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/ruler.png" />
+  </entry>
+  <entry>
+    <title type="html">Hi, Bloomberg! 🇧</title>
+    <link href="https://www.aolenev.me/blog/hi-bloomberg.html" rel="alternate" type="text/html" title="Hi, Bloomberg! 🇧" />
+    <published>2022-11-20T00:00:00+00:00</published>
+    <updated>2022-11-20T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/hi-bloomberg.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>I have just solved all your algorithms on <a class="link" href="https://leetcode.com/aolenevme" rel="noopener noreferrer nofollow" target="_blank">LeetCode</a>.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/hi-bloomberg.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/b.png" />
+  </entry>
+  <entry>
+    <title type="html">File System Linter v1.0.0 Is Alive! 🥇</title>
+    <link href="https://www.aolenev.me/blog/file-system-linter-v1.0.0-is-alive.html" rel="alternate" type="text/html" title="File System Linter v1.0.0 Is Alive! 🥇" />
+    <published>2022-10-08T00:00:00+00:00</published>
+    <updated>2022-10-08T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/file-system-linter-v1.0.0-is-alive.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>My first Open Source move!</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/file-system-linter-v1.0.0-is-alive.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/1st-place-medal.png" />
+  </entry>
+  <entry>
+    <title type="html">100 Leetcode Questions 🎉</title>
+    <link href="https://www.aolenev.me/blog/100-leetcode-questions.html" rel="alternate" type="text/html" title="100 Leetcode Questions 🎉" />
+    <published>2022-10-04T00:00:00+00:00</published>
+    <updated>2022-10-04T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/100-leetcode-questions.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>I have just solved my 100th question on Leetcode! Here are the <a class="link" href="https://leetcode.com/aolenevme" rel="noopener noreferrer nofollow" target="_blank">profile</a> and <a class="link" href="https://github.com/aolenevme/leetcode" rel="noopener noreferrer nofollow" target="_blank">code</a>.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/100-leetcode-questions.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/popper.png" />
+  </entry>
+  <entry>
+    <title type="html">Being Informed 🤔</title>
+    <link href="https://www.aolenev.me/blog/being-informed.html" rel="alternate" type="text/html" title="Being Informed 🤔" />
+    <published>2022-09-13T00:00:00+00:00</published>
+    <updated>2022-09-13T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/being-informed.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>Pure facts are the only valuable information type.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/being-informed.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/thinking-face.png" />
+  </entry>
+  <entry>
+    <title type="html">Elegant Objects 🌵</title>
+    <link href="https://www.aolenev.me/blog/elegant-objects.html" rel="alternate" type="text/html" title="Elegant Objects 🌵" />
+    <published>2022-07-27T00:00:00+00:00</published>
+    <updated>2022-07-27T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/elegant-objects.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>
+        <cite>Step one in the transformation of a successful procedural developer into a successful object developer is a lobotomy. — <a class="link" href="http://davewest.us/" rel="noopener noreferrer nofollow" target="_blank">David West</a>
+        </cite>
+      </p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/elegant-objects.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/cactus.png" />
+  </entry>
+  <entry>
+    <title type="html">Russia Under Sanctions 🐻</title>
+    <link href="https://www.aolenev.me/blog/russia-under-sanctions.html" rel="alternate" type="text/html" title="Russia Under Sanctions 🐻" />
+    <published>2022-07-12T00:00:00+00:00</published>
+    <updated>2022-07-12T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/russia-under-sanctions.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>Russia is a software leader. It produced many ecosystems in recent years: Sber, Yandex, VK, Ozon, Tinkoff, and Avito. Nobody did it so well, except USA and China.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/russia-under-sanctions.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/bear.png" />
+  </entry>
+  <entry>
+    <title type="html">One Word 1️</title>
+    <link href="https://www.aolenev.me/blog/one-word.html" rel="alternate" type="text/html" title="One Word 1️" />
+    <published>2022-06-29T00:00:00+00:00</published>
+    <updated>2022-06-29T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/one-word.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>There is a little life hack.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/one-word.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/one.png" />
+  </entry>
+  <entry>
+    <title type="html">All Inclusive 🌏</title>
+    <link href="https://www.aolenev.me/blog/all-inclusive.html" rel="alternate" type="text/html" title="All Inclusive 🌏" />
+    <published>2022-06-14T00:00:00+00:00</published>
+    <updated>2022-06-14T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/all-inclusive.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>Businesses are run to make money.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/all-inclusive.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/globe.png" />
+  </entry>
+  <entry>
+    <title type="html">Mindset Framework 🧠</title>
+    <link href="https://www.aolenev.me/blog/mindset-framework.html" rel="alternate" type="text/html" title="Mindset Framework 🧠" />
+    <published>2022-06-09T00:00:00+00:00</published>
+    <updated>2022-06-09T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/mindset-framework.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>The primary purpose of code quality investments in a growing team is to cultivate a "mindset framework".</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/mindset-framework.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/brain.png" />
+  </entry>
+  <entry>
+    <title type="html">Fragmentation ⌚</title>
+    <link href="https://www.aolenev.me/blog/fragmentation.html" rel="alternate" type="text/html" title="Fragmentation ⌚" />
+    <published>2022-06-05T00:00:00+00:00</published>
+    <updated>2022-06-05T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/fragmentation.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>Some everyday habits must take a maximum of 20 minutes.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/fragmentation.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/watch.png" />
+  </entry>
+  <entry>
+    <title type="html">Single Person Responsibility 🙆🏼</title>
+    <link href="https://www.aolenev.me/blog/single-person-responsibility.html" rel="alternate" type="text/html" title="Single Person Responsibility 🙆🏼" />
+    <published>2022-05-29T00:00:00+00:00</published>
+    <updated>2022-05-29T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/single-person-responsibility.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>People have to be responsible for their decisions. It is an axiom.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/single-person-responsibility.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/ok-man.png" />
+  </entry>
+  <entry>
+    <title type="html">Make Frontend Backend Again 🎅🏻</title>
+    <link href="https://www.aolenev.me/blog/make-frontend-backend-again.html" rel="alternate" type="text/html" title="Make Frontend Backend Again 🎅🏻" />
+    <published>2022-05-25T00:00:00+00:00</published>
+    <updated>2022-05-25T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/make-frontend-backend-again.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>If a good UI/UX is wanted, go to a server room.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/make-frontend-backend-again.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/santa.png" />
+  </entry>
+  <entry>
+    <title type="html">File System Linter 🔍</title>
+    <link href="https://www.aolenev.me/blog/lint-fs.html" rel="alternate" type="text/html" title="File System Linter 🔍" />
+    <published>2021-11-01T00:00:00+00:00</published>
+    <updated>2021-11-01T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/lint-fs.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>We have got linters and static analyzers. However, the stated structure of the project plays an equally important role in keeping code clean. So, we need an automated tool for the linting file system of projects.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/lint-fs.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/magnifier.png" />
+  </entry>
+</feed>
