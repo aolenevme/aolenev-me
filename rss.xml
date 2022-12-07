@@ -235,4 +235,20 @@
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/make-frontend-backend-again.html" />
     <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/santa.png" />
   </entry>
+  <entry>
+    <title type="html">File System Linter 🔍</title>
+    <link href="https://www.aolenev.me/blog/lint-fs.html" rel="alternate" type="text/html" title="File System Linter 🔍" />
+    <published>2021-11-01T00:00:00+00:00</published>
+    <updated>2021-11-01T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/lint-fs.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>We have got linters and static analyzers. However, the stated structure of the project plays an equally important role in keeping code clean. So, we need an automated tool for the linting file system of projects.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/lint-fs.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/magnifier.png" />
+  </entry>
 </feed>
