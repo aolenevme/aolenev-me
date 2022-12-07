@@ -219,4 +219,20 @@
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/single-person-responsibility.html" />
     <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/ok-man.png" />
   </entry>
+  <entry>
+    <title type="html">Make Frontend Backend Again 🎅🏻</title>
+    <link href="https://www.aolenev.me/blog/make-frontend-backend-again.html" rel="alternate" type="text/html" title="Make Frontend Backend Again 🎅🏻" />
+    <published>2022-05-25T00:00:00+00:00</published>
+    <updated>2022-05-25T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/make-frontend-backend-again.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>If a good UI/UX is wanted, go to a server room.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/make-frontend-backend-again.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/santa.png" />
+  </entry>
 </feed>
