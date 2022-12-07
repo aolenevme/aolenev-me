@@ -187,5 +187,20 @@
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/mindset-framework.html" />
     <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/brain.png" />
   </entry>
-
+  <entry>
+    <title type="html">Fragmentation ⌚</title>
+    <link href="https://www.aolenev.me/blog/fragmentation.html" rel="alternate" type="text/html" title="Fragmentation ⌚" />
+    <published>2022-06-05T00:00:00+00:00</published>
+    <updated>2022-06-05T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/fragmentation.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>Some everyday habits must take a maximum of 20 minutes.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/fragmentation.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/watch.png" />
+  </entry>
 </feed>
