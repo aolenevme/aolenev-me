@@ -118,7 +118,10 @@
       <email>hello@aolenev.me</email>
     </author>
     <summary type="html">
-      <p><cite>Step one in the transformation of a successful procedural developer into a successful object developer is a lobotomy. — <a class="link" href="http://davewest.us/" rel="noopener noreferrer nofollow" target="_blank">David West</a></cite></p>
+      <p>
+        <cite>Step one in the transformation of a successful procedural developer into a successful object developer is a lobotomy. — <a class="link" href="http://davewest.us/" rel="noopener noreferrer nofollow" target="_blank">David West</a>
+        </cite>
+      </p>
     </summary>
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/elegant-objects.html" />
     <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/cactus.png" />
@@ -134,7 +137,7 @@
       <email>hello@aolenev.me</email>
     </author>
     <summary type="html">
-     <p>Russia is a software leader. It produced many ecosystems in recent years: Sber, Yandex, VK, Ozon, Tinkoff, and Avito. Nobody did it so well, except USA and China.</p>
+      <p>Russia is a software leader. It produced many ecosystems in recent years: Sber, Yandex, VK, Ozon, Tinkoff, and Avito. Nobody did it so well, except USA and China.</p>
     </summary>
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/russia-under-sanctions.html" />
     <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/bear.png" />
