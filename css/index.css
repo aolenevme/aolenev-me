@@ -4,6 +4,10 @@
   --text-secondary: #4b7869;
 }
 
+::selection {
+  background: var(--text-secondary);
+}
+
 html {
   background-color: var(--primary);
   color: var(--text-primary);
@@ -55,6 +59,11 @@ main {
 
 .link:hover {
   color: var(--text-secondary);
+}
+
+.link::selection {
+  color: var(--primary);
+  background: var(--text-secondary);
 }
 
 .logo {
