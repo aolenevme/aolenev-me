@@ -68,10 +68,10 @@ main {
 
 .logo__content {
   animation: draw 2s ease-in-out forwards;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   fill: var(--text-primary);
   height: 40px;
-  stroke: var(--text-secondary);
+  stroke: var(--text-primary);
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   stroke-width: 0;
