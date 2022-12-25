@@ -55,9 +55,9 @@ main {
 .link {
   color: var(--text-primary);
   text-decoration: none;
-  font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+  font-family: ui-monospace, "Segoe UI Mono", "Roboto Mono", "Oxygen Mono",
+    "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono",
+    "Courier New", monospace;
 }
 
 .link:hover {
