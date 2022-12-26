@@ -11,6 +11,22 @@
     <email>hello@aolenev.me</email>
   </author>
   <entry>
+    <title type="html">Watchful Teams 👀</title>
+    <link href="https://www.aolenev.me/blog/watchful-teams.html" rel="alternate" type="text/html" title="Watchful Teams 👀" />
+    <published>2022-12-27T00:00:00+00:00</published>
+    <updated>2022-12-27T00:00:00+00:00</updated>
+    <id>https://www.aolenev.me/blog/watchful-teams.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>The critical success factor of any organisation is, obviously, correct team cooperation.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/watchful-teams.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/eyes.png" />
+  </entry>
+  <entry>
     <title type="html">Oh, Those Libraries! 📚</title>
     <link href="https://www.aolenev.me/blog/oh-those-libraries.html" rel="alternate" type="text/html" title="Oh, Those Libraries! 📚" />
     <published>2022-12-18T00:00:00+00:00</published>
@@ -24,7 +40,7 @@
       <p>Funny how rarely teams keep track of their external libraries' versions.</p>
     </summary>
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/oh-those-libraries.html" />
-    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/books.png" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/books.png" />
   </entry>
   <entry>
     <title type="html">Coca-Cola 🥤</title>
@@ -40,7 +56,7 @@
       <p>Coca-Cola is 100+ years old. But we still drink it. Why?</p>
     </summary>
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.aolenev.me/blog/coca-cola.html" />
-    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/cup-with-straw.png" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/cup-with-straw.png" />
   </entry>
   <entry>
     <title type="html">My New Skynet Logo 🦌</title>
