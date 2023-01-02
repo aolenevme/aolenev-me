@@ -90,6 +90,22 @@ main {
   width: 40px;
 }
 
+img {
+  border-radius: 4px;
+}
+
+@media only screen and (min-width: 768px) {
+  img {
+    transition: ease-in-out 400ms;
+  }
+
+  img:hover {
+    transition: ease-in-out 1s;
+    transform: scale(2);
+    cursor: pointer;
+  }
+}
+
 @keyframes draw {
   0% {
     fill: transparent;
