@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <link href="https://www.aolenev.me/rss.xml" rel="self" type="application/atom+xml" />
   <link href="https://www.aolenev.me/" rel="alternate" type="text/html" />
-  <updated>2022-12-11T00:00:00+00:00</updated>
+  <updated>2023-01-20T00:00:00+00:00</updated>
   <id>https://www.aolenev.me/rss.xml</id>
   <title type="html">Alexander Olenev</title>
   <subtitle>Alexander Olenev</subtitle>
@@ -10,6 +10,22 @@
     <name>Alexander Olenev</name>
     <email>hello@aolenev.me</email>
   </author>
+  <entry>
+    <title type="html">Ultimate JavaScript: Prolog 🦄</title>
+    <link href="https://aolenev.me/blog/ultimate-javascript-prolog.html" rel="alternate" type="text/html" title="Ultimate JavaScript: Prolog 🦄" />
+    <published>2023-01-20T00:00:00+00:00</published>
+    <updated>2023-01-20T00:00:00+00:00</updated>
+    <id>https://aolenev.me/blog/ultimate-javascript-prolog.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>Recently I was asked to coach for a front-end interview.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://aolenev.me/blog/ultimate-javascript-prolog.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/unicorn.png" />
+  </entry>
   <entry>
     <title type="html">100 Days LeetCode Badge 2022 🗓️</title>
     <link href="https://www.aolenev.me/blog/100-days-leetcode-badge-2022.html" rel="alternate" type="text/html" title="100 Days LeetCode Badge 2022 🗓️" />
