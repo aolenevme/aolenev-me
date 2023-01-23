@@ -70,11 +70,11 @@ main {
 }
 
 .logo {
+  width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 18px;
-  margin-bottom: 9px;
+  margin: 18px auto 9px auto;
   user-select: none;
 }
 
