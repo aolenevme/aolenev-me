@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <link href="https://www.aolenev.me/rss.xml" rel="self" type="application/atom+xml" />
   <link href="https://www.aolenev.me/" rel="alternate" type="text/html" />
-  <updated>2023-01-20T00:00:00+00:00</updated>
+  <updated>2023-02-04T00:00:00+00:00</updated>
   <id>https://www.aolenev.me/rss.xml</id>
   <title type="html">Alexander Olenev</title>
   <subtitle>Alexander Olenev</subtitle>
@@ -10,6 +10,22 @@
     <name>Alexander Olenev</name>
     <email>hello@aolenev.me</email>
   </author>
+  <entry>
+    <title type="html">Ultimate JavaScript: Async 🪗</title>
+    <link href="https://aolenev.me/blog/ultimate-javascript-async.html" rel="alternate" type="text/html" title="Ultimate JavaScript: Async 🪗" />
+    <published>2023-02-04T00:00:00+00:00</published>
+    <updated>2023-02-04T00:00:00+00:00</updated>
+    <id>https://aolenev.me/blog/ultimate-javascript-async.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>Let's dive into asynchrony.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://aolenev.me/blog/ultimate-javascript-async.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/accordion.png" />
+  </entry>
   <entry>
     <title type="html">Ultimate JavaScript: Base 🏋🏼</title>
     <link href="https://aolenev.me/blog/ultimate-javascript-base.html" rel="alternate" type="text/html" title="Ultimate JavaScript: Base 🏋🏼" />
