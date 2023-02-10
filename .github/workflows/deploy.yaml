@@ -25,4 +25,4 @@ jobs:
           mkdir ~/.ssh
           touch ~/.ssh/known_hosts
           ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
-          scp -P 2222 -o StrictHostKeyChecking=no ./index.html "$SSH_USER:$SSH_PASSWORD@$SSH_HOST:$SSH_TARGET_DIRECTORY"
+          scp -P 2222 -o StrictHostKeyChecking=no ./index.html ${{ secrets.SSH_USER }}:${{ SSH_PASSWORD }}@${{ SSH_HOST }}:${{ SSH_TARGET_DIRECTORY }}
