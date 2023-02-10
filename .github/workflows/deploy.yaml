@@ -9,18 +9,24 @@ jobs:
   deploy:
     environment: Deployment
     runs-on: ubuntu-latest
+    env:
+      SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
+      SSH_HOST: ${{ secrets.SSH_HOST }}
+      SSH_TARGET_DIRECTORY: ${{ secrets.SSH_TARGET_DIRECTORY }}
+      SSH_USER: ${{ secrets.SSH_USER }}
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Known hosts
+        run: |
+          mkdir ~/.ssh
+          touch ~/.ssh/known_hosts 
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
       - name: Send files via SSH
         uses: appleboy/scp-action@master
-        env:
-          SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
-          SSH_HOST: ${{ secrets.SSH_HOST }}
-          SSH_TARGET_DIRECTORY: ${{ secrets.SSH_TARGET_DIRECTORY }}
-          SSH_USER: ${{ secrets.SSH_USER }}
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
