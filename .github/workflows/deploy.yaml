@@ -5,15 +5,20 @@ on:
     branches:
       - master
 
+env:
+  SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
+  SSH_USER: ${{ secrets.SSH_USER }}
+  SSH_HOST: ${{ secrets.SSH_HOST }}
+  SSH_TARGET_DIRECTORY: ${{ secrets.SSH_TARGET_DIRECTORY }}
+
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run tests
+      - name: Send files via SCP
         run: |
-          ls -R
-          echo "Running tests..."
+          sshpass -p "$SSH_PASSWORD" scp -r -P 22 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR ./ "$SSH_USER@$SSH_HOST:$SSH_TARGET_DIRECTORY"
