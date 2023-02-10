@@ -13,6 +13,7 @@ env:
 
 jobs:
   deploy:
+    environment: Deployment
     runs-on: ubuntu-latest
 
     steps:
