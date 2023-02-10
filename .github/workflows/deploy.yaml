@@ -22,4 +22,4 @@ jobs:
           SSH_TARGET_DIRECTORY: ${{ secrets.SSH_TARGET_DIRECTORY }}
           SSH_USER: ${{ secrets.SSH_USER }}
         with:
-          args: "-r -P 2222 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR ./ ${{ env.SSH_USER }}@{{ env.SSH_HOST }}:{{ env.SSH_TARGET_DIRECTORY }}"
+          args: "-P 2222 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR ./index.html ${{ env.SSH_USER }}@{{ env.SSH_HOST }}:{{ env.SSH_TARGET_DIRECTORY }}"
