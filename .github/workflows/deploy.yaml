@@ -26,5 +26,5 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PASSWORD }}
           port: 2222
-          source: "./index.html"
+          source: "index.html"
           target: ${{ secrets.SSH_TARGET_DIRECTORY }}
