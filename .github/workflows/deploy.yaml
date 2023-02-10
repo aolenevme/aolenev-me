@@ -1,7 +1,5 @@
 name: Deploy
 
-name: Test on pull request
-
 on:
   pull_request:
     branches:
