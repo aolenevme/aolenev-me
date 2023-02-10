@@ -16,10 +16,11 @@ jobs:
 
       - name: Send files via SSH
         env:
+          TEST: "test"
           SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
           SSH_HOST: ${{ secrets.SSH_HOST }}
           SSH_TARGET_DIRECTORY: ${{ secrets.SSH_TARGET_DIRECTORY }}
           SSH_USER: ${{ secrets.SSH_USER }}
         run: |
-          echo "$SSH_HOST"
+          echo "$TEST"
           scp -r -P 2222 ./index.html "$SSH_USER:$SSH_PASSWORD@$SSH_HOST:$SSH_TARGET_DIRECTORY"
