@@ -15,5 +15,5 @@ jobs:
 
       - name: Run tests
         run: |
-          # run your tests here
+          ls -R
           echo "Running tests..."
