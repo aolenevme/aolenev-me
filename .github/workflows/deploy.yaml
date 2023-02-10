@@ -22,5 +22,7 @@ jobs:
           SSH_TARGET_DIRECTORY: ${{ secrets.SSH_TARGET_DIRECTORY }}
           SSH_USER: ${{ secrets.SSH_USER }}
         run: |
+          mkdir ~/.ssh
+          mkdir ~/.ssh/known_hosts
           ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
           scp -r -P 2222 -o StrictHostKeyChecking=no ./index.html "$SSH_USER:$SSH_PASSWORD@$SSH_HOST:$SSH_TARGET_DIRECTORY"
