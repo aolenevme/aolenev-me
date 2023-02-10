@@ -20,6 +20,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Send files via SCP
-        run: |
-          sshpass -p "$SSH_PASSWORD" scp -r -P 2222 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o LogLevel=ERROR ./ "$SSH_USER@$SSH_HOST:$SSH_TARGET_DIRECTORY"
+      - name: Send files via SSH
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: 2222
+          source: "./"
+          target: ${{ secrets.SSH_TARGET_DIRECTORY }}
