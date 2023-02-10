@@ -7,9 +7,9 @@ on:
 
 env:
   SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
-  SSH_USER: ${{ secrets.SSH_USER }}
   SSH_HOST: ${{ secrets.SSH_HOST }}
   SSH_TARGET_DIRECTORY: ${{ secrets.SSH_TARGET_DIRECTORY }}
+  SSH_USER: ${{ secrets.SSH_USER }}
 
 jobs:
   deploy:
