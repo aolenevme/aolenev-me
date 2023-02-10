@@ -24,4 +24,4 @@ jobs:
         run: |
           echo "$TEST"
           ping "$SSH_HOST" -c 1
-          scp -r -P 2222 ./index.html "$SSH_USER:$SSH_PASSWORD@$SSH_HOST:$SSH_TARGET_DIRECTORY"
+          scp -r -P 2222 -o StrictHostKeyChecking=no ./index.html "$SSH_USER:$SSH_PASSWORD@$SSH_HOST:$SSH_TARGET_DIRECTORY"
