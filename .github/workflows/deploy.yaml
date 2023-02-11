@@ -26,5 +26,5 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PASSWORD }}
           server-dir: ${{ secrets.SSH_TARGET_DIRECTORY }}
-          protocol: ftps
+          protocol: ftp
           port: 2222
