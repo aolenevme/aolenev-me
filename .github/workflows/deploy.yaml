@@ -19,12 +19,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      - name: Deploy
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          server: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
-          password: ${{ secrets.SSH_PASSWORD }}
-          server-dir: ${{ secrets.SSH_TARGET_DIRECTORY }}
-          protocol: ftp
+          server: ${{ secrets.SSH_HOST }}
           port: 2222
+          local_path: "./*"
+          remote_path: ${{ secrets.SSH_TARGET_DIRECTORY }}
+          sftp_only: true
+          password: ${{ secrets.SSH_PASSWORD }}
