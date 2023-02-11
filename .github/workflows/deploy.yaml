@@ -19,18 +19,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Known hosts
-        run: |
-          mkdir ~/.ssh
-          touch ~/.ssh/known_hosts 
-          ssh-keyscan ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
-
-      - name: Send files via SSH
-        uses: appleboy/scp-action@master
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
+          server: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PASSWORD }}
+          server-dir: ${{ secrets.SSH_TARGET_DIRECTORY }}
+          protocol: ftps
           port: 2222
-          source: "index.html"
-          target: "public_html/index.html"
