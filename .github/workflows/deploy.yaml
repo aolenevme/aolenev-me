@@ -2,6 +2,8 @@ name: Deploy
 
 on:
   pull_request:
+    types: [closed]
+  push:
     branches:
       - master
 
@@ -11,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v2
 
       - name: Deploy
