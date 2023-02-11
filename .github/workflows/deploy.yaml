@@ -9,11 +9,6 @@ jobs:
   deploy:
     environment: Deployment
     runs-on: ubuntu-latest
-    env:
-      SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
-      SSH_HOST: ${{ secrets.SSH_HOST }}
-      SSH_TARGET_DIRECTORY: ${{ secrets.SSH_TARGET_DIRECTORY }}
-      SSH_USER: ${{ secrets.SSH_USER }}
 
     steps:
       - name: Checkout code
@@ -21,11 +16,17 @@ jobs:
 
       - name: Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        env:
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_PORT: ${{ secrets.FTP_PORT }}
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_TARGET_DIRECTORY: ${{ secrets.FTP_TARGET_DIRECTORY }}
+          FTP_USER: ${{ secrets.FTP_USER }}
         with:
-          username: ${{ secrets.SSH_USER }}
-          server: ${{ secrets.SSH_HOST }}
-          port: 2222
+          username: ${{ secrets.FTP_USER }}
+          server: ${{ secrets.FTP_HOST }}
+          port: ${{ secrets.FTP_PORT }}
           local_path: "./*"
-          remote_path: ${{ secrets.SSH_TARGET_DIRECTORY }}
+          remote_path: ${{ secrets.FTP_TARGET_DIRECTORY }}
           sftp_only: true
-          password: ${{ secrets.SSH_PASSWORD }}
+          password: ${{ secrets.FTP_PASSWORD }}
