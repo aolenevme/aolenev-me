@@ -21,9 +21,9 @@ jobs:
           FTP_PORT: ${{ secrets.FTP_PORT }}
           FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_TARGET_DIRECTORY: ${{ secrets.FTP_TARGET_DIRECTORY }}
-          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
         with:
-          username: ${{ secrets.FTP_USER }}
+          username: ${{ secrets.FTP_USERNAME }}
           server: ${{ secrets.FTP_HOST }}
           port: ${{ secrets.FTP_PORT }}
           local_path: "./*"
