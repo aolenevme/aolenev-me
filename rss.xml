@@ -11,6 +11,22 @@
     <email>hello@aolenev.me</email>
   </author>
   <entry>
+    <title type="html">Boy Scout Rule 🦸🏼‍♂️</title>
+    <link href="https://aolenev.me/blog/boy-scout-rule.html" rel="alternate" type="text/html" title="Boy Scout Rule 🦸🏼‍♂️" />
+    <published>2023-02-19T00:00:00+00:00</published>
+    <updated>2023-02-19T00:00:00+00:00</updated>
+    <id>https://aolenev.me/blog/boy-scout-rule.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>If a project is three months old and no one has monitored its quality, it is a legacy project.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://aolenev.me/blog/boy-scout-rule.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/superhero.png" />
+  </entry>
+  <entry>
     <title type="html">Ultimate JavaScript: Proto-Types 😎</title>
     <link href="https://aolenev.me/blog/ultimate-javascript-prototypes.html" rel="alternate" type="text/html" title="Ultimate JavaScript: Proto-Types 😎" />
     <published>2023-02-18T00:00:00+00:00</published>
