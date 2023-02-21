@@ -18,19 +18,10 @@ html {
   font-variant-east-asian: normal;
   font-weight: normal;
   font-stretch: normal;
-  font-size: 16px;
+  font-size: 21px;
   line-height: 1.5rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  letter-spacing: 0.07rem;
 }
 
 body {
@@ -39,17 +30,16 @@ body {
 
 main {
   margin: auto;
-  width: 329px;
+  padding: 0 12px;
+  max-width: 547px;
 }
 
 .links {
   display: flex;
-  gap: 2px;
+  gap: 8px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 9px;
-  margin-bottom: 18px;
 }
 
 .link {
@@ -90,20 +80,13 @@ main {
   width: 40px;
 }
 
-img {
-  border-radius: 4px;
+.titles {
+  padding: 0;
+  list-style-type: none;
 }
 
-@media only screen and (min-width: 768px) {
-  img {
-    transition: ease-in-out 400ms;
-  }
-
-  img:hover {
-    transition: ease-in-out 1s;
-    transform: scale(2);
-    cursor: pointer;
-  }
+video {
+  width: 100%;
 }
 
 @keyframes draw {
