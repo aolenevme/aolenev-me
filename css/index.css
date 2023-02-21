@@ -96,6 +96,10 @@ main {
   font-family: var(--font-family-secondary);
 }
 
+.article__time {
+  font-size: 0.8rem;
+}
+
 video {
   width: 100%;
 }
