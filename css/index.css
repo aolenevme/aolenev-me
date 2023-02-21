@@ -25,7 +25,6 @@ html {
   font-weight: normal;
   font-stretch: normal;
   font-size: 21px;
-  line-height: 1.5rem;
   font-family: var(--font-family-primary);
 }
 
@@ -37,11 +36,12 @@ main {
   margin: auto;
   padding: 12px;
   max-width: 547px;
+  line-height: 1.5rem;
 }
 
 .links {
   display: flex;
-  gap: 4px;
+  gap: 8px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
@@ -88,6 +88,10 @@ main {
 .titles {
   padding: 0;
   list-style-type: none;
+}
+
+.title {
+  padding: 8px 0;
 }
 
 .title__time {
