@@ -85,6 +85,11 @@ main {
   list-style-type: none;
 }
 
+.title__time {
+  padding-right: 16px;
+  font-size: 0.7rem;
+}
+
 video {
   width: 100%;
 }
