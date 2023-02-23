@@ -59,7 +59,6 @@ main {
 
 .link::selection {
   color: var(--primary);
-  background: var(--text-secondary);
 }
 
 .logo {
