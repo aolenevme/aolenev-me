@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <link href="https://www.aolenev.me/rss.xml" rel="self" type="application/atom+xml" />
   <link href="https://www.aolenev.me/" rel="alternate" type="text/html" />
-  <updated>2023-02-28T00:00:00+00:00</updated>
+  <updated>2023-03-05T00:00:00+00:00</updated>
   <id>https://www.aolenev.me/rss.xml</id>
   <title type="html">Alexander Olenev</title>
   <subtitle>Alexander Olenev</subtitle>
@@ -11,8 +11,24 @@
     <email>hello@aolenev.me</email>
   </author>
   <entry>
+    <title type="html">Know Your Tool 🛠 </title>
+    <link href="https://aolenev.me/blog/know-your-tool.html" rel="alternate" type="text/html" title="Know Your Tool 🛠" />
+    <published>2023-03-05T00:00:00+00:00</published>
+    <updated>2023-03-05T00:00:00+00:00</updated>
+    <id>https://aolenev.me/blog/know-your-tool.html</id>
+    <author>
+      <name>Alexander Olenev</name>
+      <email>hello@aolenev.me</email>
+    </author>
+    <summary type="html">
+      <p>The world of IT is extremely diverse. Especially the world of web development.</p>
+    </summary>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="aolenev.me/blog/know-your-tool.html" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://aolenev.me/images/blog/hammer-and-wrench.png" />
+  </entry>
+  <entry>
     <title type="html">Ultimate JavaScript: This Function 🫦</title>
-    <link href="https://aolenev.me/blog/the-price-of-open-source.html" rel="alternate" type="text/html" title="Ultimate JavaScript: This Function 🫦" />
+    <link href="https://aolenev.me/blog/ultimate-javascript-this-function.html" rel="alternate" type="text/html" title="Ultimate JavaScript: This Function 🫦" />
     <published>2023-02-28T00:00:00+00:00</published>
     <updated>2023-02-28T00:00:00+00:00</updated>
     <id>https://aolenev.me/blog/ultimate-javascript-this-function.html</id>
