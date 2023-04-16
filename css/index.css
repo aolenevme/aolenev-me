@@ -1,7 +1,6 @@
 :root {
   --primary: #ffffff;
   --text-primary: #0a0a0a;
-  --text-secondary: #4b7869;
   --font-family-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
@@ -29,13 +28,18 @@ html {
 }
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
   margin: 0;
 }
 
 main {
-  margin: auto;
   padding: 12px;
   max-width: 547px;
+  margin-bottom: 10vh;
   line-height: 1.5rem;
 }
 
